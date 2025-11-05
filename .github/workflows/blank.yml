@@ -35,7 +35,6 @@ jobs:
           -e env.json \
           --env-var "admin=${{ secrets.POSTMAN_USER }}" \
           --env-var "password=${{ secrets.POSTMAN_PASSWORD }}" \
-
             --reporters cli,htmlextra \
             --reporter-htmlextra-export reports/results.html
 
